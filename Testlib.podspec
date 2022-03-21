@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Testlib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Testlib.'
+  s.summary          = 'This summary of astrapay SDK library and its usage for QRIS transaction'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
