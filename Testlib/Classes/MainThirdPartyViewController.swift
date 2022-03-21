@@ -9,9 +9,9 @@ import Foundation
 
 import UIKit
 
-class MainThirdPartyViewController: UIViewController {
+public class MainThirdPartyViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
