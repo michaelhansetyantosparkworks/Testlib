@@ -1,0 +1,22 @@
+{
+  "name": "Testlib",
+  "version": "0.1.0",
+  "summary": "A short description of Testlib.",
+  "description": "Very Long Description",
+  "homepage": "https://github.com/michaelhansetyantosparkworks/Testlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Michael Hansetyanto": "michael.hansetyanto@sparkworks.co.id"
+  },
+  "source": {
+    "git": "https://github.com/michaelhansetyantosparkworks/Testlib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Testlib/Classes/**/*"
+}

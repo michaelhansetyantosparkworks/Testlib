@@ -1,9 +1,10 @@
+
 //
 //  SwiftyLib.swift
 //
-public final class SwiftyLib {
+public final class TestLib {
 
-    let name = "SwiftyLib"
+    let name = "TestLib"
     
     public func add(a: Int, b: Int) -> Int {
         return a + b
