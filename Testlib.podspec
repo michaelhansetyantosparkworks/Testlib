@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'Very Long Description'
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim nisi, scelerisque pharetra risus at, egestas feugiat orci. Integer at facilisis erat. Ut leo ante, egestas venenatis lectus vitae, convallis tincidunt justo. Etiam ullamcorper dolor id ornare dapibus. Donec pellentesque vestibulum risus, ac sodales augue gravida at. Sed vestibulum cursus erat dictum commodo. Nam vel convallis tortor. Donec vulputate tincidunt lacinia.'
                         DESC
 
 
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Testlib/Classes/*.swift'
+  s.source_files = 'Testlib/Classes/**/*'
+  s.swift_version = '5.1'
   
   # s.resource_bundles = {
   #   'Testlib' => ['Testlib/Assets/*.png']
