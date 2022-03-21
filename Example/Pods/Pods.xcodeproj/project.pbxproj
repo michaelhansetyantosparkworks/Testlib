@@ -11,7 +11,7 @@
 		429947F76348ED4D60F812DD5A4912D4 /* Pods-Testlib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A3EC7D2850FCF8A9A0862978F9A676 /* Pods-Testlib_Tests-dummy.m */; };
 		8FF8C1AD2B6C6A1F649CE89E4300B419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9B7835C5521722BF05601F0F4A7D356E /* TestLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3FEB04C340972D33B0D6BAA496FB7 /* TestLib.swift */; };
-		B4E07A2727E862B800E4AAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E07A2627E862B800E4AAEC /* Main.storyboard */; };
+		B4EF12BA27E8655D003AC63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EF12B927E8655D003AC63D /* Main.storyboard */; };
 		B5D8F2DACA6AA613AA9C2C7888D78D56 /* Testlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F7BF52AC69ABC0DE35A8B76BDE009 /* Testlib-dummy.m */; };
 		B7C52A82C28777EFC966E8A8606ED138 /* Testlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFBC51AF9C4B84A8BF640538857CBF9 /* Testlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFC44D49DCEC855D3EA2EC75D9CD4FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -46,7 +46,7 @@
 		A05F7BF52AC69ABC0DE35A8B76BDE009 /* Testlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Testlib-dummy.m"; sourceTree = "<group>"; };
 		AAFBC51AF9C4B84A8BF640538857CBF9 /* Testlib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Testlib-umbrella.h"; sourceTree = "<group>"; };
 		B0C8B1CFE4366259CC7CE7A098041888 /* Pods-Testlib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Testlib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B4E07A2627E862B800E4AAEC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B4EF12B927E8655D003AC63D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Testlib/Classes/Main.storyboard; sourceTree = "<group>"; };
 		C46C6B39B17F710B722A7314256D9CC1 /* Pods-Testlib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Testlib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCA210E3CFF826291E002E033054BCA1 /* Pods-Testlib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Testlib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC19F9834BA5499F4CF5A0BFEC21B0A0 /* Testlib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Testlib; path = Testlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,11 +103,11 @@
 		56EE18BF8410FB90AE96E3945D8D77B2 /* Testlib */ = {
 			isa = PBXGroup;
 			children = (
+				B4EF12B927E8655D003AC63D /* Main.storyboard */,
 				26ECAB0830DC4631FCED747C49F13353 /* ReplaceMe.swift */,
 				E1F3FEB04C340972D33B0D6BAA496FB7 /* TestLib.swift */,
 				7C07BB9AE15400A4577C09E9EE20D427 /* Pod */,
 				4738DC839591C69C309DAC07812AAAC3 /* Support Files */,
-				B4E07A2627E862B800E4AAEC /* Main.storyboard */,
 			);
 			name = Testlib;
 			path = ../..;
@@ -276,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E07A2727E862B800E4AAEC /* Main.storyboard in Resources */,
+				B4EF12BA27E8655D003AC63D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
